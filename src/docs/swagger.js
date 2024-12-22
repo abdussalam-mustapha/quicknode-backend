@@ -63,3 +63,6 @@ const options = {
   },
   apis: ['./src/routes/*.js']
 };
+
+// Generate Swagger specification
+export const specs = swaggerJsdoc(options);
